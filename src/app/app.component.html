@@ -73,14 +73,14 @@
     </div>
 
   <!-- Next Steps -->
-  <h2>Next Steps</h2>
-  <p>What do you want to do next with your app?</p>
+  <h1>Like Angular?</h1>
+  <p>This webpage is suported by Angular and <code>angular-cli-ghpages</code></p>
 
   <input type="hidden" #selection>
 
   <!-- Terminal -->
   <div class="terminal" [ngSwitch]="selection.value">
-      <pre *ngSwitchDefault>ng generate component xyz</pre>
+      <pre *ngSwitchDefault>https://angular.jp/</pre>
       <pre *ngSwitchCase="'material'">ng add @angular/material</pre>
       <pre *ngSwitchCase="'dependency'">ng add _____</pre>
       <pre *ngSwitchCase="'test'">ng test</pre>
